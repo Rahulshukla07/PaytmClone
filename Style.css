@@ -1,0 +1,709 @@
+        *{
+            position: relative!important;
+        }
+        body {
+            background-color: #f3f7f8;
+            margin: 0%;
+            padding: 0%;
+            width: 1245px;
+            font-family: "Open Sans",arial,tahoma,verdana,sans-serif;
+            font-size: 400;
+        }
+
+        .top-header {
+            display: flex;
+            justify-content: space-between;
+            width: 1245px;
+            background:#f3f7f8;
+            margin: -3px 0px 3px 0px;
+            height: 26px;
+            padding: 0px 4%;
+            font-size: 12px;
+            
+        }
+        .top-header p{
+            position: relative;
+            bottom: 11px;
+            font-family: "Open Sans",arial,tahoma,verdana,sans-serif;
+            font-weight: 400;
+        }
+        .top-header-left {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            font-size: 12px;
+            right: 37px;
+            color: #333333;
+        }
+        .Offer {
+            background-color: rgb(231, 75, 36);
+            padding: 3px 8px 1px 8px;
+            border-radius: 2px;
+            color:white;
+            margin: 7px 3px 0px 42px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .percent {
+            padding-bottom: 2px;
+            text-decoration-color: rgb(51, 51, 51);
+            font-family: 'Raleway', sans-serif;
+            font-size: 12px;
+            margin: 9px 3px 0px 2px;
+            font-weight: bold;
+        }
+
+        .top-header-right {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 85px 0px 3px;
+            font-weight: 600;
+            position: relative;
+            /* right: 70px; */
+            color: rgb(122, 122, 124);
+        }
+        .top-header-right p:hover{
+            cursor: pointer;
+        }
+        .top-header-left p:hover{
+            cursor: pointer;
+        }
+        .middle-header {
+            position:sticky;
+            top: 0;
+            display: flex;
+            justify-content: space-around;
+            width: 1349px;
+            height: 74px;
+            background: #fff;
+        }
+
+        .menu img {
+            margin: 30px 2px 2px 1px;
+            width: 24px;
+            height: 20px;
+            position: relative;
+            right: -30px;
+        }
+        .menu img:hover{
+            cursor: pointer;
+        }
+
+        .paytm-logo {
+            margin: 18px 10px 2px 2px;
+            position: relative;
+            right: -15px;
+        }
+        .paytm-logo img:hover{
+            cursor: pointer;
+        }
+
+        .wrapper {
+            position: relative;
+            right: 50px;
+            display: flex;
+            min-width: 100px;
+            margin: 18px;
+            text-decoration: none;
+        }
+        .fa-search{
+            position: relative;
+            top: 12px;
+            left: 26px ;
+            color:rgb(174, 174, 179);
+        }
+        .search {
+            border: 0px solid grey;
+            border-radius: 5px;
+            height: 25px;
+            width: 438px;
+            padding: 2px 23px 2px 30px;
+            outline: 0;
+            background-color: transparent;
+            border-bottom: 1px solid #ebebeb;
+        }
+
+        .wrapper-1 {
+            display: flex;
+            position: relative;
+            right: 3px;
+            margin-top: 30px ;
+            /* text-decoration: none; */
+        }
+        #amount{
+            font-size: 11px; 
+            position:relative;
+            left:-34px; 
+            top:-14px;
+            text-align: right;
+        }
+        #amount a{
+            text-decoration: none;
+            color: #00b9f5;
+        }
+        .box1 input{
+            width: 90%;
+        }
+        .box2 input{
+            width: 90%;
+        }
+        .box3 input{
+            width: 90%;
+        }
+        .mobile-re{
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .search-1 {
+            border: 0px solid grey;
+            border-radius: 5px;
+            height: 30px;
+            width: 220px;
+            padding: 10px 10px 10px 5px;
+            outline: 0;
+            position: relative;
+            right: 73px;
+            bottom: -25px;
+            margin: 31px 0px 0px 70px;
+            background-color: #f5f5f5;
+            font-size: 15px;
+            font-weight: 600;
+            box-sizing: border-box;
+            background-color: transparent;
+            border-bottom: 1px solid #ebebeb;
+            
+        }
+
+        .search-1:hover,
+        .search-1:focus {
+            border: 0px solid #ffffff;
+            background-color: ghostwhite;
+        }
+        .search-icon {
+            position: absolute;
+            top: 14px;
+            left: 13px;
+            width: 17px;
+        }
+
+        .clear-icon {
+            position: absolute;
+            top: 9px;
+            right: 8px;
+            width: 12px;
+            cursor: pointer;
+            visibility: hidden;
+            color: rgb(216, 212, 212);
+        }
+        .search:focus {
+            border: 0px solid #ffffff;
+            background-color: ghostwhite;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+        }
+
+        .middle-header-right {
+            display: flex;
+            justify-content: space-between;
+            margin: 12px 0px 29px 0px;
+            font-size: 12px;
+            color:rgb(87, 86, 84);
+            position: relative;
+            right: 85px;
+        }
+        .middle-header-right p{
+            margin: 18px 0px 0px 0px;
+        }
+        .middle-header-right p:hover{
+            cursor: pointer;
+        }
+        .middle-header-right img:hover{
+            cursor: pointer;
+        }
+
+        .play-and-win {
+            display: flex;
+            margin: 0px 15px -6px 10px;
+        }
+
+        .play-and-win img {
+            margin: 11px 3px 2px 3px;
+        }
+
+        .add-money {
+            display: flex;
+            margin: 0px 15px -6px 10px;
+        }
+
+        .add-money img {
+            margin: 11px 3px 2px 3px;
+        }
+
+        .paytm-wallet {
+            display: flex;
+            margin: 0px 15px -6px 10px;
+
+        }
+
+        .paytm-wallet img {
+            width: 20px;
+            height: 25px;
+            margin: 11px 3px 2px 3px;
+        }
+
+        .login {
+            display: flex;
+            margin: 0px 15px -6px 10px;
+        }
+
+        .login img {
+            width: 20px;
+            height: 25px;
+            margin: 11px 3px 2px 3px;
+        }
+
+        .down-header {
+            background-color: #012b72;
+            height: 200px;
+            width: 1299px;
+            display: flex;
+            justify-content: space-around;
+            color: blanchedalmond;
+            text-align: center;
+            padding: 9px 25px 0px 25px;
+        }
+
+        .down-header p:hover {
+            color: white;
+            cursor: pointer;
+        }
+
+        .down-header img:hover {
+            color: white;
+            cursor: pointer;
+        }
+
+        .down-header p {
+            margin: -1px 0px 0px 0px;
+            padding: 5px 3px 4px 3px;
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(190, 186, 186, 0.8);
+        }
+
+        .down-header img {
+            height: 32px;
+        }
+
+        .middle-header-2 {
+            display: flex;
+            justify-content: space-around;
+            background: white;
+            height: 193px;
+            margin: 0px 0px 0px 40px;
+            padding: 10px 20px 30px;
+            border-radius: 2px;
+            position: relative;
+            bottom: 130px;
+            width: 1230px;
+        }
+        h4{
+            font-size: 16px;
+            font-size: 16px;
+            margin: 15px 0px 0px 0px;
+            color: rgb(54, 53, 53);
+        }
+        .radio_button{
+            position: relative;
+            right: 12px;
+            bottom: -14px;
+        }
+
+        label {
+            font-size: 16px;
+            color:#222;
+            position: relative;
+            left: -8px;
+            bottom: -3px;
+        }
+        label:hover{
+            cursor: pointer;
+        }
+        .radio_button input:hover{
+            cursor:pointer;
+            color: rgb(181, 181, 187);
+        }
+
+        input {
+            margin: .4rem;
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            border-style: none;
+            width: 40px;
+        }
+
+        .middle-header-part-2 {
+            display: flex;
+            flex-direction: column;
+            margin: 50px 12px 40px -5px;
+            position: relative;
+            right: 8px;
+            top: 12px;
+        }
+
+        .middle-header-part-2 input,
+        .radio_button input {
+            width: 30px;
+            height: 17px;
+            bottom: -6px;
+            position: relative;
+            right: 0px;
+        }
+        .fast-forward{
+            position: relative;
+            bottom: 1px;
+        }
+
+        .check-button {
+            position: relative;
+            right: 3px;
+            top: -10px;
+        }
+
+        .check-button label {
+            color: #00b9f5;
+            margin: 8px 0 0;
+            font-size: 15px;
+            font-weight: 600;
+            padding-left: 5px;
+        }
+
+        .check-button p {
+            font-size: 12px;
+            color: #999;
+            margin-top: 0px;
+            font-weight: 400;
+            position: relative;
+            left: 47px;
+            bottom: 3px;
+        }
+
+        .recharge {
+            position: relative;
+            width:309px ;
+            height:50px ;
+            bottom: 20px;
+            left: 7px;
+        }
+
+        button {
+            background: #00b9f5;
+            color: #fff;
+            font-size: 23px;
+            padding: 15px 42px;
+            margin: 8px -6px 2px 0px;
+            text-align: center;
+            border-width: 0;
+            font-weight: 600;
+            border-radius: 4px;
+        }
+
+        .fas {
+            color:rgb(141, 141, 145);
+        }
+
+        .cover {
+            height: 125px;
+            /* background-color: white; */
+            position: relative;
+            bottom: 131px;
+            left: 39px;
+            /* margin: 0px 45px 0px 45px; */
+            /* border-radius: 3px; */
+            display: flex;
+            justify-content: space-around;
+            font-size: 13px;
+            text-align: center;
+            margin: 0 auto;
+            width: 101%;
+            color: #222;
+            border-radius: 3px;
+            background-color: #fff;
+            box-shadow: 0 0 8px 0 rgba(0,0,0,.05);
+            margin-top: 16px;
+            padding: 10px 8px;
+        }
+        .cover p:hover{
+            cursor: pointer;
+            color:#00b9f5 ;
+        }
+        .cover img:hover{
+            cursor: pointer;
+            color:#00b9f5 ;
+        }
+        .cover img {
+            width: 80px;
+            position: relative;
+            top: 12px;
+            border-radius: 50%;
+        }
+        .cover-2{
+            display: flex;
+            background-color:white;
+            position: relative;
+            height: 540px;
+            width:1273px;
+            left: 38px;
+            /* margin: 0px 45px 0px 45px; */
+            bottom: 115px;
+            border-radius: 3px;
+        }
+        .box-part{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            font-size: 12px;
+            margin:1px 37px 1px 5px;
+        }
+        .cover-2-right img{
+            width: 248px;
+        }
+        .part2{
+            position: relative;
+            right: 4px;
+            width: 250px;
+        }
+        .part3{
+            position: relative;
+            bottom: 5px;
+        }
+        .part4{
+            position: relative;
+            right: 4px;
+            bottom: 5px; 
+        }
+        .cover-2:hover,.cover-2:focus{
+            cursor: pointer;
+        }
+        .brand{
+               margin-top: -9px; 
+        }
+        .part5{
+            height: 128px;
+        }
+        .vl {
+            border-left: 1px solid rgb(196, 190, 190);
+            height: 85px;
+            width: 1px;
+            position: relative;
+            right: 30px;
+            bottom: 76px;
+        }
+        .blar{
+            color: rgba(146, 145, 142, 0.842);
+        }
+        .vl2{
+            position: relative;
+            right: 19px;
+        }
+        .box-1 p{
+            position: relative;
+            left: 18px;
+            
+        }
+        .box-2 p{
+            position: relative;
+            left: 18px;  
+        }
+        .book-on-paytm-part{
+            background-color:white;
+            height: 184px;
+            margin: 45px 45px 0px 45px;
+            border-radius: 3px;
+            position: relative;
+            bottom: 145px;
+            left: -10px;
+            width: 1278px;
+        }
+        .logos{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            position: relative;
+            top: 55px;
+        }
+        .logos p:hover{
+            cursor: pointer;
+            color:black;
+        }
+        .logos img:hover{
+            cursor: pointer;
+        }
+        .Book{
+            position: relative;
+            left: 28px;
+            top: 24px;
+            font-weight: bold;
+            color: rgb(100, 98, 98);
+        }
+        .logos img{
+            width: 30px;
+            position: relative;
+            top: 8px;  
+        }
+        .logos p{
+            text-align: center;
+            font-size: 14px;
+            color: rgb(148, 145, 145);
+            position: relative;
+            top: 20px;
+        }
+        .online-shop{
+            position: relative;
+            bottom: 48px;
+        }
+        #sale{
+            font-size: 9px;
+            font-weight: 600;
+            position: relative;
+            top: 24px;
+            left: 25px;
+            background-color: #019bf5;
+            color: #ffffff;
+            margin: 0px 50px 0px 0px;
+            padding: 3px;
+            border-radius: 2px;
+        }
+        .alag{
+            position: relative;
+            top: 30px;
+        }
+        .two{
+            margin-top: 1px;
+        }
+        .three{
+            margin-top: 3px;
+        }
+        .four{
+            margin-top:-3px;
+        }
+        .five{
+            margin-top:-2px;
+        }
+        .six{
+            margin-top:-2px;
+        }
+        .seven{
+            margin-top:7px;
+        }
+        .eight{
+            margin-top:-2px;
+        }
+        .nine{
+            margin-top:5px;
+        }
+        .ten{
+            margin-top:-2px;
+        }
+        .eleven{
+            margin-top:5px;
+        }
+        .twelve{
+            margin-top: 4px;
+        }
+        .third-last-containar{
+            height: 171px;
+            width: 1278px;
+            background-color:white;
+            margin: 15px 45px 0px 45px;      
+            border-radius: 3px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            font-size: 12px;
+            color: rgb(161, 158, 158);
+            position: relative;
+            left: -10px;
+            bottom: 145px;
+        }
+        .help a{
+            color: #00b9f5;
+            text-decoration: none;
+        }
+        .second-last-containar{
+            width: 1278px;
+            height: 27px;
+            background-color: white;
+            /* margin: 15px 0px 0px 45px ; */
+            border-radius: 3px;
+            align-items: center;
+            font-size: 10px;
+            color: rgb(164, 164, 167);
+            position: relative;
+            bottom: 140px;
+            right: -35px;
+        }
+        .second-last-containar p{
+            position: relative;
+            top: 5px;
+            font-size: 10px;
+            left: 7px;
+        }
+        .last-containar{
+            width: 1349px;
+            height: 47px;
+            background-color: #012b72;
+            /* margin: 15px 0px 0px 0px ; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            bottom: 123px;
+            /* left: px;  */
+        }
+        .contant  {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 12px;
+            color: white;
+            margin: 0px 0px 0px 35px;
+        }
+        .contant p{
+            margin-left:15px ;
+        }
+        .icons{
+            color: rgb(122, 122, 124);
+           margin-right:25px;
+           display: flex;
+           justify-content: space-around; 
+        }
+        .icons i{
+            margin: 0px 0px 0px 25px; 
+        }
+        .vl3{
+            border-left: 1px solid rgb(12, 12, 12);
+            height: 25px;
+            width: 1px;
+        }
+        .os{
+            position: relative;
+            right: 25px;
+        }
+        .icons i:hover{
+            cursor: pointer;
+            color:rgb(174, 174, 179) ;
+        }
+        .contant p:hover{
+            cursor: pointer;
+            color:#00b9f5;
+        }
